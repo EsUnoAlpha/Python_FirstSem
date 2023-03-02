@@ -7,6 +7,8 @@
 import sys
 
 
-user_input = sys.stdin.readline()
-if 'sys.in' in user_input:
-    print('Command added')
+input = sys.stdin.readline()
+if input.startswith("sys.in"):
+    print("Команда принята")
+else:
+    print("Команда не приянта")
