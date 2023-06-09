@@ -12,6 +12,10 @@ import lxml
 import json
 import time
 
+
+login = input('Введите логин: ')
+password = input('Введите пароль: ')
+
 options = Options()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Chrome(options=options)
@@ -20,11 +24,11 @@ driver.get('https://class.sirius.ru/authorize')
 
 search_login = driver.find_element(By.XPATH, '/html/body/div/div/main/div/div/div/div[1]/form/div[1]/div[1]/div/input')
 # s_search.clear()
-search_login.send_keys('')
+search_login.send_keys(login)
 
 search_pass = driver.find_element(By.XPATH, '/html/body/div/div/main/div/div/div/div[1]/form/div[1]/div[2]/div/input')
 # s_search.clear()
-search_pass.send_keys('')
+search_pass.send_keys(password)
 
 search_pass.send_keys(Keys.ENTER)
 time.sleep(1)
