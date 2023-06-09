@@ -4,5 +4,8 @@
 Пример ввода: python file.py kakoitoArgument --name Oleg(Скрипт должен напечатать привет Oleg)
 """
 
-
-
+import sys
+if "--name" in sys.argv:
+    print("Привет, ",sys.argv[sys.argv.index("--name")+1])
+else:
+    print("Привет мир")

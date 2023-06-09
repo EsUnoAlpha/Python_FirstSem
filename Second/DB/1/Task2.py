@@ -1,17 +1,17 @@
 from sqlalchemy import create_engine
 from sqlalchemy import Column, Integer, String
-from sqlalchemy.orm import DeclarativeBase
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import declarative_base
+from sqlalchemy.orm import sessionmaker
 from werkzeug.security import generate_password_hash
 from werkzeug.security import check_password_hash
 
-sqlite_database = "sqlite:///authorization.sql"
+# убрал ошибку в названии базы данных и добавил параметр check_same_thread для подключения к SQLite в многопоточном приложении
+sqlite_database = "sqlite:///authorization.db?check_same_thread=False"
 
 engine = create_engine(sqlite_database)
 
-
-class Base(DeclarativeBase):
-    pass
+# исправил ошибку в создании базового класса
+Base = declarative_base()
 
 
 class Authorization(Base):
@@ -22,6 +22,9 @@ class Authorization(Base):
 
 
 Base.metadata.create_all(bind=engine)
+
+# изменен вызов sessionmaker на функцию, чтобы передать параметр autoflush
+Session = sessionmaker(bind=engine, autoflush=False)
 
 
 def start():
@@ -36,7 +39,7 @@ def sigh_up():
     name = input('Введите имя пользователя: ')
     passwd = input('Введите пароль: ')
     hashed_pass = generate_password_hash(f"{passwd}", 'sha256')
-    with Session(autoflush=False, bind=engine) as db:
+    with Session() as db:
         auth = Authorization(username=name, password=hashed_pass)
         db.add(auth)
         db.commit()
@@ -44,26 +47,25 @@ def sigh_up():
 
 
 def sigh_in():
-    with Session(autoflush=False, bind=engine) as db:
+    with Session() as db:
         users = db.query(Authorization).all()
-        list_of_users = lis
+        list_of_users = list()
         login = input('Введите логин: ')
         passwd = input('Введите пароль: ')
         for i in users:
-            i.username.append(list_of_users)
+            list_of_users.append(i.username)  # добавил имя пользователя в список пользователей
             unhashed = check_password_hash(f"{i.password}", f"{passwd}")
-        if login in list_of_users and unhashed is True:
-            print("Вход выполнен")
+            if login == i.username and unhashed is True:  # исправил проверку имени пользователя и пароля
+                print("Вход выполнен")
+                return
+        if login not in list_of_users:
+            print("Нет такого пользователя")
         else:
-            if login not in list_of_users :
-                print("Нет такого пользователя")
-                # print(login, i.username)
-            else:
-                print("Неправильный пароль")
+            print("Неправильный пароль")
 
 
 def info():
-    with Session(autoflush=False, bind=engine) as db:
+    with Session() as db:
         users = db.query(Authorization).all()
         for i in users:
             print(i.username, i.password)

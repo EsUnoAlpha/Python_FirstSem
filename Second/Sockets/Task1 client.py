@@ -2,12 +2,11 @@ import socket
 
 
 def func():
-    data = ''
     msg = input('Введите сообщение: ')
     sock.send(msg, encoding = 'UTF-8')
     data = sock.recv(1024)
     print(data)
-    if data == 'bye':
+    if data.decode() == 'bye':
         sock.close()
     else:
         func()
@@ -20,7 +19,7 @@ while True:
     sock.send(bytes(msg, encoding = 'UTF-8'))
     data = sock.recv(1024)
     print(data)
-    if data == 'Bye':
+    if data.decode() == 'Bye':
         sock.close()
     else:
         msg = input('Введите сообщение: ')

@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f4c6663-6b62-43e8-9bd7-b7de194a6ff1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Project/Client_socket.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Client_socket.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Client_socket_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Client_socket_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Pyqt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Server_socket.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Server_socket.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/database_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/database_users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/tets_clien.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/users.db" beforeDir="false" afterPath="$PROJECT_DIR$/Project/users.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Second/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Second/calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +66,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="client (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Lessons" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,7 +78,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project_2/client (2).py" />
+      <option name="SCRIPT_NAME" value="C:\Users\16874\PycharmProjects\Python\Lessons\Project_2\client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="server " type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Lessons" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,7 +120,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project_2/server (2).py" />
+      <option name="SCRIPT_NAME" value="C:\Users\16874\PycharmProjects\Python\Lessons\Project_2\server .py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,7 +175,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Project_2/client (2).py</url>
+          <url>file://$PROJECT_DIR$/Project_2/client.py</url>
           <line>24</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>

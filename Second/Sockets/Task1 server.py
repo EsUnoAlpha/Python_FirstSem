@@ -14,7 +14,7 @@ print('server is running')
 while True:
     conn, addr = sock.accept()
     print('connected: ', addr)
-    data = conn.recv(1024)
+    data = conn.recv(1024).decode()
     print(str(data))
     if data == 'Bye':
         conn.close()

@@ -15,9 +15,9 @@ class Films(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String)
-    date = Column(Integer, )
+    date = Column(Integer)
     genre = Column(String)
-    rate = Column(Integer, )
+    rate = Column(Integer)
 
 Base.metadata.create_all(bind=engine)
 
