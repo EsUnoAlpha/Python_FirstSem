@@ -5,10 +5,12 @@
 
 
 import sys
+import os
+
+# input = sys.stdin.readline()
+# if input.startswith("sys.in"):
+#     print("Команда принята")
+# else:
+#     print("Команда не приянта")
 
 
-input = sys.stdin.readline()
-if input.startswith("sys.in"):
-    print("Команда принята")
-else:
-    print("Команда не приянта")

@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f4c6663-6b62-43e8-9bd7-b7de194a6ff1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second/DB/.dbeaver/data-sources.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second/DB/.dbeaver/project-settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second/DB/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second/DB/1/authorization.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second/DB/1/authorization.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second/DB/1/authorization1.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second/DB/1/films.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second/DB/1/films1.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second/DB/1/persons.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second/DB/1/task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second/DB/1/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second/DB/2/company.db" beforeDir="false" afterPath="$PROJECT_DIR$/Second/DB/2/company.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second/DB/films.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second/ModuleSys/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Second/ModuleSys/Task2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,14 +43,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/16874/PycharmProjects/Python/Lessons&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/16874/PycharmProjects/Python/Lessons",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\16874\PycharmProjects\Python\Lessons\Second" />
@@ -153,8 +167,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.client_2" />
-        <item itemvalue="Python.client (2)" />
-        <item itemvalue="Python.server (2)" />
         <item itemvalue="Python.server" />
         <item itemvalue="Python.Client_socket_2" />
       </list>
