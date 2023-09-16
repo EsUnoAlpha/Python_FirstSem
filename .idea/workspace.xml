@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f4c6663-6b62-43e8-9bd7-b7de194a6ff1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Second/DB/.dbeaver/data-sources.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Second/DB/.dbeaver/project-settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Second/DB/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Second/DB/1/authorization.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Second/DB/1/authorization.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Second/DB/1/authorization1.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Second/DB/1/films.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Second/DB/1/films1.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Second/DB/1/persons.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Second/DB/1/task.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Second/DB/1/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Second/DB/2/company.db" beforeDir="false" afterPath="$PROJECT_DIR$/Second/DB/2/company.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Second/DB/films.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Second/ModuleSys/Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Second/ModuleSys/Task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second/Parsing/chart_data.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +35,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/16874/PycharmProjects/Python/Lessons",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "last_opened_file_path": "D:/Users/16874/Документы/Python_FirstYear",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,6 +61,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/Client_socket_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -92,6 +83,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\16874\PycharmProjects\Python\Lessons\Project_2\client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -113,6 +105,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project_2/client_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -134,6 +127,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\16874\PycharmProjects\Python\Lessons\Project_2\server .py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -155,6 +149,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ebuchey_chat/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -180,8 +175,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681759578418</updated>
+      <workItem from="1694893224989" duration="149000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
